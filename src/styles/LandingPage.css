@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.section-title {
+    color: #f4c2c2; /* Palo de rosa */
+    margin-bottom: 20px;
+}
+
+.section-content {
+    margin-bottom: 40px;
+}
+
+.card-header {
+    background-color: #f4c2c2; /* Palo de rosa */
+    color: #fff;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+.card-title {
+    color: #f4c2c2; /* Palo de rosa */
+}
+
+.btn-primary {
+    background-color: #f4c2c2; /* Palo de rosa */
+    border-color: #f4c2c2; /* Palo de rosa */
+}
+
+.btn-primary:hover {
+    background-color: #e6b0aa; /* Slightly darker palo de rosa */
+    border-color: #e6b0aa;
+}
+
+.text-pink {
+    color: #f4c2c2; /* Palo de rosa */
+}
+
+.main-color {
+    color: #D88AA5; /* Palo de rosa */
+}

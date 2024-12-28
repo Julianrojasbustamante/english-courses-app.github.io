@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -9,50 +16,193 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Section Titles */
+.section-title {
+    color: #f4c2c2; /* Palo de rosa */
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Section Content */
+.section-content {
+    margin-bottom: 40px;
     padding: 20px;
 }
 
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #f4c2c2; /* Palo de rosa */
+    font-size: 1.25rem;
+}
+
+.card-body {
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Carousel */
 .carousel-inner img {
     height: 400px;
     object-fit: cover;
 }
 
-.section-title {
-    color: #f4c2c2; /* Palo de rosa */
-    margin-bottom: 20px;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
 }
 
-.section-content {
-    margin-bottom: 40px;
-}
-
-.card-header {
-    background-color: #f4c2c2; /* Palo de rosa */
-    color: #fff;
-}
-
-.card-body {
-    background-color: #fff;
-}
-
-.card-title {
-    color: #f4c2c2; /* Palo de rosa */
-}
-
+/* Buttons */
 .btn-primary {
     background-color: #f4c2c2; /* Palo de rosa */
-    border-color: #f4c2c2; /* Palo de rosa */
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
 }
 
 .btn-primary:hover {
-    background-color: #e6b0aa; /* Slightly darker palo de rosa */
-    border-color: #e6b0aa;
+    background-color: #6400ea;
 }
 
-.text-pink {
-    color: #f4c2c2; /* Palo de rosa */
+/* Highlight Colors */
+.main-highlight-color {
+    color: #6400ea;
+}
+
+.secondary-highlight-color {
+    color: #f4c2c2;
 }
 
 .main-color {
-    color: #D88AA5; /* Palo de rosa */
+    color: #6400ea;
+}
+
+
+.header {
+    position: relative;
+    background-image: url('../assets/images/backgroud-header.jpeg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 60vh; /* Ajusta la altura según sea necesario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-overlay {
+    position: relative;
+    z-index: 1;
+    color: #fff; /* Texto en blanco para mayor contraste */
+    padding: 20px;
+    h1 {
+        font-weight: bold;  
+    } 
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65); /* Fondo semitransparente negro */
+    z-index: 0; /* Coloca el overlay detrás del texto */
+}
+
+
+/* Background para toda la sección */
+.section-content {
+    background: #f9f9f9;
+    padding: 4rem 1rem;
+    border-radius: 10px;
+  }
+  
+  /* Tarjetas */
+  .package-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 15px;
+  }
+  
+  .package-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Títulos */
+  .package-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Precio */
+  .package-card .price {
+    font-size: 2rem;
+    color: #333;
+    margin: 0.5rem 0;
+  }
+  
+  /* Botón */
+  .package-card .btn {
+    background: #6400ea;
+    color: #fff;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .package-card .btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Textos */
+  .package-card .card-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+
+  .contact-us {
+    position: relative;
+    background-image: url('../assets/images/contact-us.jpeg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 70vh; /* Ajusta la altura según sea necesario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-us-overlay {
+    position: relative;
+    z-index: 1;
+    color: #fff; /* Texto en blanco para mayor contraste */
+    padding: 20px;
+    h1 {
+        font-weight: bold;  
+    } 
+}
+
+.contact-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65); /* Fondo semitransparente negro */
+    z-index: 0; /* Coloca el overlay detrás del texto */
 }

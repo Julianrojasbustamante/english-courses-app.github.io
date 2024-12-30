@@ -8,8 +8,12 @@ const TestimonialsSection = () => (
             <div className="carousel-inner">
                 {[
                     {
-                        text: "Gracias a la metodología innovadora de la profesora Elizabeth Rojas...",
+                        text: "Gracias a la metodología innovadora de la profesora Elizabeth Rojas, mi hijo ha mejorado notablemente su nivel de inglés. Las clases son interactivas y divertidas, lo que le ha motivado a aprender más. Estoy muy agradecida por su dedicación y profesionalismo.",
                         author: "María Gómez",
+                    },
+                    {
+                        text: "La profesora Elizabeth Rojas ha revolucionado el aprendizaje de inglés para mi hijo. Sus clases son dinámicas y llenas de creatividad, lo que ha despertado su entusiasmo por el idioma. Estamos muy satisfechos con los resultados obtenidos en poco tiempo.",
+                        author: "Luis Fernando Pérez",
                     },
                     // Agrega más testimonios aquí
                 ].map((testimonial, index) => (

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/english-courses-app.github.io/static/css/main.9a1abaef.css",
-    "main.js": "/english-courses-app.github.io/static/js/main.373e4fda.js",
-    "static/media/backgroud-header.jpeg": "/english-courses-app.github.io/static/media/backgroud-header.c9acb7f8830e2de84696.jpeg",
+    "main.css": "/english-courses-app.github.io/static/css/main.4ad76281.css",
+    "main.js": "/english-courses-app.github.io/static/js/main.09d60109.js",
+    "static/media/banner.jpeg": "/english-courses-app.github.io/static/media/banner.903e23e4a237773db002.jpeg",
     "static/media/contact-us.jpeg": "/english-courses-app.github.io/static/media/contact-us.a804599b34be2fd2ca21.jpeg",
     "static/media/logo.png": "/english-courses-app.github.io/static/media/logo.d71d51d7aea644aa52f0.png",
     "index.html": "/english-courses-app.github.io/index.html",
-    "main.9a1abaef.css.map": "/english-courses-app.github.io/static/css/main.9a1abaef.css.map",
-    "main.373e4fda.js.map": "/english-courses-app.github.io/static/js/main.373e4fda.js.map"
+    "main.4ad76281.css.map": "/english-courses-app.github.io/static/css/main.4ad76281.css.map",
+    "main.09d60109.js.map": "/english-courses-app.github.io/static/js/main.09d60109.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a1abaef.css",
-    "static/js/main.373e4fda.js"
+    "static/css/main.4ad76281.css",
+    "static/js/main.09d60109.js"
   ]
 }

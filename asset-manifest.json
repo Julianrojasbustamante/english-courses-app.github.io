@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/english-courses-app.github.io/static/css/main.9a1abaef.css",
-    "main.js": "/english-courses-app.github.io/static/js/main.ac0d5bcd.js",
+    "main.js": "/english-courses-app.github.io/static/js/main.373e4fda.js",
     "static/media/backgroud-header.jpeg": "/english-courses-app.github.io/static/media/backgroud-header.c9acb7f8830e2de84696.jpeg",
     "static/media/contact-us.jpeg": "/english-courses-app.github.io/static/media/contact-us.a804599b34be2fd2ca21.jpeg",
     "static/media/logo.png": "/english-courses-app.github.io/static/media/logo.d71d51d7aea644aa52f0.png",
     "index.html": "/english-courses-app.github.io/index.html",
     "main.9a1abaef.css.map": "/english-courses-app.github.io/static/css/main.9a1abaef.css.map",
-    "main.ac0d5bcd.js.map": "/english-courses-app.github.io/static/js/main.ac0d5bcd.js.map"
+    "main.373e4fda.js.map": "/english-courses-app.github.io/static/js/main.373e4fda.js.map"
   },
   "entrypoints": [
     "static/css/main.9a1abaef.css",
-    "static/js/main.ac0d5bcd.js"
+    "static/js/main.373e4fda.js"
   ]
 }
